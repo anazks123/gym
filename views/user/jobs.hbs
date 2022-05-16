@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">amount</th>
+        <th scope="col">Member ID</th>
+      <th scope="col"> Date</th>
+  
+    </tr>
+  </thead>
+  <tbody>
+      {{#each fund}}
+    <tr>
+      
+      <td>{{this.amount}}</td>
+      <td>{{this.mid}}</td>
+      <td>{{this.date}}</td>
+    
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+</div>
